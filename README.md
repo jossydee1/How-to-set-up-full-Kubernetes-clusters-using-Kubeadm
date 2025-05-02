@@ -1,4 +1,4 @@
-# How-to-set-up-full-Kubernetes-clusters-using-Kubeadm
+# How-to-set-up-Kubernetes-clusters-using-Kubeadm
 
 # Kubeadm Setup and Installation
 
@@ -6,10 +6,10 @@ Example: Ubuntu Server (ec2)
 
 ## Step 1: Provision EC2 Instances
 ### 1.1 Choose Instance Type
-Select Ubuntu 22.04 LTS as the base OS.
-Recommended instance types:
-Control Plane Node: t3.medium (2 vCPUs, 4GB RAM) or higher.
-Worker Nodes: t3.small (2 vCPUs, 2GB RAM) or higher.
+Select Ubuntu 22.04 LTS as the base OS.  
+#### Recommended instance types:  
+Control Plane Node: t3.medium (2 vCPUs, 4GB RAM) or higher.  
+Worker Nodes: t3.small (2 vCPUs, 2GB RAM) or higher.  
 
 ### 1.2 Configure Security Group
 Allow the following ports:
